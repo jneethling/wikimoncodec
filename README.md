@@ -1,3 +1,4 @@
+[![Go](https://github.com/jneethling/wikimoncodec/actions/workflows/go.yml/badge.svg)](https://github.com/jneethling/wikimoncodec/actions/workflows/go.yml)
 # wikimoncodec
 A Golang Apache Avro Codec for the Hatnote Wikipedia monitor (https://github.com/hatnote/wikimon).
 
