@@ -9,8 +9,8 @@ import (
 
 // Wikimon defines wikimon structure
 type Wikimon struct {
-	Action      string   `json:"action"`
-	Change      int64    `json:"change_size"`
+	Action      string   `json:"action,omitempty"`
+	Change      int64    `json:"change_size,omitempty"`
 	Geo         GeoIP    `json:"geo_ip,omitempty"`
 	Hastags     []string `json:"hastags,omitempty"`
 	Anon        bool     `json:"is_anon,omitempty"`
