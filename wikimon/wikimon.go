@@ -30,11 +30,11 @@ type Wikimon struct {
 
 // GeoIP defines geo_ip structure
 type GeoIP struct {
-	City      string  `json:"city"`
-	Country   string  `json:"country_name"`
-	Latitude  float64 `json:"latitude"`
-	Longitude float64 `json:"longitude"`
-	Region    string  `json:"region_name"`
+	City      string  `json:"city,omitempty"`
+	Country   string  `json:"country_name,omitempty"`
+	Latitude  float64 `json:"latitude,omitempty"`
+	Longitude float64 `json:"longitude,omitempty"`
+	Region    string  `json:"region_name,omitempty"`
 }
 
 // AvroCodec defines avro codec structure
